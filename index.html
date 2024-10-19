@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Flashcards</h1>
+        <p id="word-count"></p>
+        <div class="flashcard">
+            <h2 id="word"></h2>
+            <input type="text" id="translation" placeholder="Digite a tradução">
+            <div class="buttons">
+                <button id="check-answer">Verificar Resposta</button>
+                <button id="next-word">Próxima Palavra</button>
+            </div>
+            <p id="result"></p>
+        </div>
+        <div class="scoreboard">
+            <p>Pontuação Correta: <span id="correct-score">0</span></p>
+            <p>Pontuação Errada: <span id="wrong-score">0</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
